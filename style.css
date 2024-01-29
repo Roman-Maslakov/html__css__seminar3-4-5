@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background-color: white;
+}
+
+.menu__link {
+  color: black;
+}
+
+.p__main {
+  font-weight: 700;
+  line-height: 72px;
+  word-wrap: break-word;
+  color: black;
+  font-size: 60px;
+}
+
+.p__minor {
+  color: #888888;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  word-wrap: break-word;
+}
+
+.button__start {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background: #f25822;
+  box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+  border-radius: 56px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.button__watch {
+  color: #AAAAAA;
+  font-size: 16px;
+  font-weight: 600;
+  word-wrap: break-word
+}
