@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+  font-family: Inter;
+}
+
+body {
+  padding-left: calc(50% - 590px);
+  padding-right: calc(50% - 590px);
 }
 
 button {
@@ -9,8 +15,44 @@ button {
   background-color: white;
 }
 
+.top__menu {
+  margin: 40px 0 84px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__tab {
+  display: flex;
+  justify-items: center;
+  gap: 14px;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
 .menu__link {
   color: black;
+  font-size: 14px;
+  font-weight: 600;
+  word-wrap: break-word;
+  text-align: center;
+  padding: 10px;
+}
+
+.link__features {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.top__content {
+  padding-bottom: 100px;
+  display: flex;
+  gap: 80px
 }
 
 .p__main {
@@ -19,6 +61,7 @@ button {
   word-wrap: break-word;
   color: black;
   font-size: 60px;
+  margin-bottom: 20px;
 }
 
 .p__minor {
@@ -27,6 +70,13 @@ button {
   font-weight: 400;
   line-height: 28px;
   word-wrap: break-word;
+}
+
+.buttons {
+  display: flex;
+  justify-items: flex-start;
+  gap: 48px;
+  margin-top: 32px
 }
 
 .button__start {
@@ -48,4 +98,10 @@ button {
   font-size: 16px;
   font-weight: 600;
   word-wrap: break-word
+}
+
+.brand__logo {
+  margin: 100px 0;
+  display: flex;
+  gap: 48px;
 }
